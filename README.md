@@ -60,4 +60,4 @@ L'ensemble des fonctions définies dans ce fichier constitue le cœur du pipelin
   - `RNNWrapper` : Architecture Bi-LSTM sous PyTorch incluant un `WeightedRandomSampler` pour gérer le déséquilibre des classes ;
   - `TransformerWrapper` : Intégration de CamemBERT via la bibliothèque HuggingFace, avec une personnalisation de la fonction de perte (`WeightedTrainer`) ;
 - Fonctions de calcul de métriques (Accuracy, F1, Log-Loss), validation croisée stratifiée et génération de matrices de confusion formatées ;
-- Système de sauvegarde et de chargement hybride gérant les fichiers `.joblib` pour Scikit-Learn et les répertoires de poids pour les modèles de Deep Learning.
+- Système de sauvegarde et de chargement gérant les fichiers `.joblib` pour Scikit-Learn et les répertoires de poids pour les modèles de Deep Learning.
